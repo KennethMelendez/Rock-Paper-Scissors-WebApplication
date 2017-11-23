@@ -1,0 +1,107 @@
+/*//reset values*/
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  /*font-family:fantasy;*/
+  /*font-size: 1rem;*/
+  color:white;
+}
+
+/*html {
+  background:url(../images/bg.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+html{
+  background:black;
+  font-size: 2rem;
+  font-family: 'Permanent Marker', cursive;
+}
+.container {
+  padding:3rem;
+  border:1px solid black;
+  text-align: center;
+  margin-top:10px;
+}
+
+button{
+  width:200px;
+  height:200px;
+  border: 5px solid black;
+}
+
+#playerrock, #rivalrock {
+  background:url(../images/rock.jpeg);
+  background-size: cover;
+}
+
+#playerpaper, #rivalpaper {
+  background:url(../images/paper.jpeg);
+  background-size: cover;
+}
+
+#playerscissors, #rivalscissors {
+  background:url(../images/scissor.jpeg);
+  background-size: cover;
+
+}
+
+.player button{
+  cursor:pointer;
+  outline:none;
+}
+
+.player button:hover{
+  border:10px solid red;
+  transition:0.4s;
+  border-radius: 10rem;
+}
+
+.rival button {
+  background:none;
+  outline:none;
+  transition: 1s;
+}
+.announcer-styles {
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div a{
+  display:block;
+  text-align: center;
+  font-size: 10px;
+  text-decoration: none;
+  border: 2px solid white;
+  width:10%;
+  padding:1rem;
+  margin: 0 auto;
+  border-radius: 400px;
+}
+
+div a:hover{
+  background:white;
+  color:black;
+}
+
+.player{
+
+}
+
+.rival{
+
+}
+
+.opacity{
+  opacity:0.2;
+}
+
+.remove{
+  display:none;
+}
